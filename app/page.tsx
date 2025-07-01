@@ -26,6 +26,32 @@ export default function Home() {
         >
           <h2 className="text-6xl font-bold text-white mb-4">Welcome to MetaDyn</h2>
           <p className="text-xl text-gray-300">Building the Future of the Metaverse</p>
+          <motion.div
+            className="mt-8 max-w-hero mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            <p className="text-lg text-gray-300 mb-4">
+              With over 20 years of experience building Applications, Hybrid-Cloud, Virtual Environments, and Blockchain technology, we are laying the Digital Fabric and infrastructure for the future of Identity, Asset Ownership and Brand Engagement.
+            </p>
+            <p className="text-lg text-gray-300">
+              We understand the complexity of progress and make it easy to deploy presence
+            </p>
+          </motion.div>
+          <motion.div
+            className="mt-8 flex justify-center gap-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+          >
+            <button className="bg-cyan-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-cyan-600 transition-colors">
+              LEARN MORE
+            </button>
+            <button className="bg-white text-black font-bold py-3 px-8 rounded-lg hover:bg-gray-200 transition-colors">
+              SEE ALL DEMOS
+            </button>
+          </motion.div>
         </motion.div>
       </Section>
 
