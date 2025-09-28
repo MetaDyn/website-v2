@@ -35,8 +35,8 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: info@metadyn.com</li>
-              <li>Tel: (555) 123-4567</li>
+              <li>Email: info@metadyn.xyz</li>
+              <li>Tel: (816) 226-7498</li>
               <li>Location: Virtual & Worldwide</li>
             </ul>
           </div>
